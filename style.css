@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #0099ff;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 14%;
+    backface-visibility: hidden;
+    background: white;
+    height: 100vh;
+    display: block;
+}
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Sanchez', serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.colon {
+    font-family: 'Fredoka One', cursive;
+    color: red;
+    padding: 5px;
+}
+
+.logo:hover .colon {
+    color: #0099ff;
+}
+
+.menu-item:hover .fas {
+    font-size: 25px;
+    color: #0099ff;
+}
+
+.fas {
+    transition: 1s;
+    color: #333;
+    padding-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;    
+}
+
+nav li {
+    font-size: 18px;
+    padding: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    margin: 80px;
+    background: #c333;
+    height: 5000px;
+    width: 70%; 
+/*    86 % to play with*/
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-vid-section {
+    margin-top: 40px;
+    height: 300px;
+    width: 93%;
+    background: white;
+    border-radius: 20px;
+}
